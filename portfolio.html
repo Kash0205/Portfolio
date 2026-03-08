@@ -1,0 +1,389 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kashish Agarwal | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:linear-gradient(135deg,#fce7f3,#e0f2fe);
+color:#1e293b;
+}
+
+/* NAVBAR */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:white;
+box-shadow:0 4px 15px rgba(0,0,0,0.05);
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+header h1{
+font-size:22px;
+color:#ec4899;
+}
+
+nav a{
+margin-left:25px;
+text-decoration:none;
+color:#334155;
+font-weight:500;
+}
+
+nav a:hover{
+color:#ec4899;
+}
+
+/* HERO */
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h2{
+font-size:50px;
+color:#ec4899;
+}
+
+.hero p{
+margin-top:10px;
+font-size:18px;
+color:#475569;
+}
+
+.btn{
+margin-top:25px;
+padding:12px 28px;
+background:#ec4899;
+border:none;
+border-radius:30px;
+color:white;
+font-weight:500;
+cursor:pointer;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+box-shadow:0 8px 20px rgba(236,72,153,0.3);
+}
+
+/* SECTION */
+
+section{
+padding:80px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:34px;
+margin-bottom:50px;
+color:#ec4899;
+}
+
+/* ABOUT */
+
+.about{
+max-width:700px;
+margin:auto;
+text-align:center;
+line-height:1.7;
+font-size:16px;
+color:#334155;
+}
+
+/* SKILLS */
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+
+.skill-box{
+background:white;
+padding:20px;
+border-radius:12px;
+text-align:center;
+box-shadow:0 8px 20px rgba(0,0,0,0.05);
+transition:0.3s;
+}
+
+.skill-box:hover{
+transform:translateY(-5px);
+}
+
+/* PROJECTS */
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.project-card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.05);
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-6px);
+}
+
+.project-card h3{
+color:#ec4899;
+margin-bottom:10px;
+}
+
+.project-card p{
+font-size:14px;
+color:#475569;
+}
+
+/* EXPERIENCE */
+
+.experience-box{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.05);
+margin-bottom:20px;
+}
+
+.experience-box h3{
+color:#ec4899;
+margin-bottom:8px;
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+}
+
+.contact p{
+margin-bottom:10px;
+}
+
+.contact a{
+display:inline-block;
+margin:10px;
+text-decoration:none;
+padding:10px 18px;
+background:#ec4899;
+color:white;
+border-radius:25px;
+font-size:14px;
+transition:0.3s;
+}
+
+.contact a:hover{
+background:#db2777;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:25px;
+margin-top:40px;
+background:white;
+font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>Kashish Agarwal</h1>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#experience">Experience</a>
+<a href="#achievements">Achievements</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h2>Hello, I'm Kashish ✨</h2>
+<p>B.Tech IT Student | Full Stack Developer | ML Enthusiast</p>
+
+<a href="#projects">
+<button class="btn">View My Work</button>
+</a>
+
+</section>
+
+<section id="about">
+
+<h2 class="section-title">About Me</h2>
+
+<p class="about">
+I am a B.Tech Information Technology student at Vellore Institute of Technology with a strong interest in full-stack development and machine learning. I enjoy building scalable web applications and intelligent systems that solve real-world problems.
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills">
+
+<div class="skill-box">Python</div>
+<div class="skill-box">C / C++</div>
+<div class="skill-box">Java</div>
+<div class="skill-box">JavaScript</div>
+<div class="skill-box">HTML</div>
+<div class="skill-box">CSS</div>
+<div class="skill-box">Node.js</div>
+<div class="skill-box">Express.js</div>
+<div class="skill-box">MongoDB</div>
+<div class="skill-box">SQL</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
+<h3>Vehicle Parking System</h3>
+<p>
+Full-stack application for booking parking slots and managing parking history using Node.js, Express.js, and MongoDB.
+</p>
+</div>
+
+<div class="project-card">
+<h3>Smart Lender - Loan Prediction</h3>
+<p>
+Machine learning model predicting loan approval using Python, Pandas, NumPy, and Scikit-learn with 79% accuracy.
+</p>
+</div>
+
+<div class="project-card">
+<h3>Uniplay - Learn & Play</h3>
+<p>
+Interactive learning platform with games and quizzes for different age groups with accessibility features.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="experience">
+
+<h2 class="section-title">Experience</h2>
+
+<div class="experience-box">
+<h3>Web Developer Intern – Vault Of Codes</h3>
+<p>
+Developed responsive web pages and improved website layout using HTML, CSS, and JavaScript.
+</p>
+</div>
+
+<div class="experience-box">
+<h3>Finance Coordinator – Riviera Cultural Fest</h3>
+<p>
+Managed event budgets and coordinated with sponsors and vendors during large cultural events.
+</p>
+</div>
+
+</section>
+
+<section id="achievements">
+
+<h2 class="section-title">Achievements</h2>
+
+<div class="projects">
+
+<div class="project-card">
+<h3>Patent Award</h3>
+<p>
+Awarded a patent titled “Integrated System for Adaptive and Inclusive Digital Education”, a gamified learning platform for all age groups including disabled users.
+</p>
+</div>
+
+<div class="project-card">
+<h3>Merit Scholarship</h3>
+<p>
+Recognized among the Top 10 students in the Information Technology branch for academic excellence during the academic year 2024–25.
+</p>
+</div>
+
+<div class="project-card">
+<h3>Programme Representative</h3>
+<p>
+Serving as Programme Representative for the IT branch (2025–26), coordinating communication between faculty and students.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact</h2>
+
+<div class="contact">
+
+<p>Email: kashish.agarwal0205@gmail.com</p>
+
+<a href="https://www.linkedin.com/in/kashish-agarwal-013383277/">LinkedIn</a>
+<a href="http://github.com/Kash0205">GitHub</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Kashish Agarwal | Portfolio</p>
+
+</footer>
+
+</body>
+</html>
+```
